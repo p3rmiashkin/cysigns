@@ -25,6 +25,22 @@
             <i class="form-icon"></i>🌏
         </label>
     </div>
+    <dialog id="modeSwitchDialog">
+        <form method="dialog">
+            <p>
+                <label>
+                    <center>
+                        <h1>⚠️</h1>
+                    </center>
+                    Reset progress and change mode?
+                </label>
+            </p>
+            <div class="button-line">
+                <button id="submitModeSwitch" type="submit" class="btn">Yes</button>
+                <button id="cancelModeSwitch" type="reset" class="btn">No</button>
+            </div>
+        </form>
+    </dialog>
     <div class="container">
         <div class="text-center">❓<span id="question">0</span> of <span id="total">0</span>
             <label id="score">🟢<span id="correct">0</span> 🔴<span id="incorrect">0</span></label>
