@@ -165,7 +165,7 @@
   },
   {
     "image": "images/UK_traffic_sign_550.2.svg",
-    "name": "Horse-drawn vehicleslikely to be in the road"
+    "name": "Horse-drawn vehicles likely to be in the road"
   },
   {
     "image": "images/UK_traffic_sign_550.1.svg",
@@ -173,7 +173,7 @@
   },
   {
     "image": "images/UK_traffic_sign_550.svg",
-    "name": "Wild horsesor ponies"
+    "name": "Wild horses or ponies"
   },
   {
     "image": "images/UK_traffic_sign_551.svg",
@@ -233,7 +233,7 @@
   },
   {
     "image": "images/Cyprus_road_sign_no_agricle_vehicles.svg",
-    "name": "No agricle vehicles"
+    "name": "No agricultural vehicles"
   },
   {
     "image": "images/Cyprus_road_sign_no_animal_vehicles.svg",
@@ -281,7 +281,7 @@
   },
   {
     "image": "images/Cyprus_road_sign_no_heavy_vehicles.svg",
-    "name": "No goods veicles"
+    "name": "No goods vehicles"
   },
   {
     "image": "images/UK_traffic_sign_622.7.svg",
@@ -289,7 +289,7 @@
   },
   {
     "image": "images/UK_traffic_sign_616.svg",
-    "name": "No Entryfor vehicular traffic"
+    "name": "No Entry for vehicular traffic"
   },
   {
     "image": "images/UK_traffic_sign_612.svg",
@@ -313,7 +313,7 @@
   },
   {
     "image": "images/UK_traffic_sign_632.svg",
-    "name": "Noovertaking"
+    "name": "No overtaking"
   },
   {
     "image": "images/Cyprus_road_sign_end_no_overpass.svg",
@@ -497,7 +497,7 @@
   },
   {
     "image": "images/Cyprus_road_sign_humped_pellcan_crossing.svg",
-    "name": "Humped pellcan crossing"
+    "name": "Humped pelican crossing"
   },
   {
     "image": "images/Cyprus_road_sign_school.svg",
@@ -705,6 +705,6 @@
   },
   {
     "image": "images/Zyamet_(Leonarisso).JPG",
-    "name": "Turkish direction sign forLeonarisso(Ziyamet)"
+    "name": "Turkish direction sign for Leonarisso(Ziyamet)"
   }
 ]
