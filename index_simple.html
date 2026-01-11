@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Cyprus Road Signs Test</title>
+    <link rel="me" href="https://github.com/mrfeod/cysigns/">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+    <link rel="manifest" href="icon/site.webmanifest">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/spectre.min.css">
+    <link rel="stylesheet" href="src/style.css">
+</head>
+
+<body>
+    <div id="selfTest" class="form-group">
+        <label class="form-switch label-sm">
+            <input id="mode" type="checkbox" class="input-sm" onclick="switchMode()">
+            <i class="form-icon"></i>🎓
+        </label>
+        <label class="form-switch label-sm">
+            <input id="lang" type="checkbox" class="input-sm" onclick="updateTranslation()">
+            <i class="form-icon"></i>🌏
+        </label>
+    </div>
+    <dialog id="modeSwitchDialog">
+        <form method="dialog">
+            <p>
+                <label>
+                    <center>
+                        <h1>⚠️</h1>
+                    </center>
+                    Reset progress and change mode?
+                </label>
+            </p>
+            <div class="button-line">
+                <button id="submitModeSwitch" type="submit" class="btn">Yes</button>
+                <button id="cancelModeSwitch" type="reset" class="btn">No</button>
+            </div>
+        </form>
+    </dialog>
+    <div class="container">
+        <div class="text-center">❓<span id="question">0</span> of <span id="total">0</span>
+        </div>
+        <div class="spacer"></div>
+        <figure id="signContainer" class="figure loading-lg">
+            <div class="spacerW"></div>
+            <img id="signImage" class="sign-image">
+            <div class="spacerW"></div>
+            <div id="finishText" class="text-center">Test finished🎉</div>
+        </figure>
+        <div id="answerText" class="text-center"></div>
+        <div class="spacer"></div>
+        <div class="button-line">
+            <button id="showAnswerButton" class="btn btn-primary" onclick="showAnswer()">Show answer</button>
+            <button id="nextButton" class="btn btn-primary" onclick="nextQuestion()">Next</button>
+        </div>
+        <div id="footerText" class="text-center">
+            <a href="#wikipedia" onClick="window.open('https://en.wikipedia.org/wiki/Road_signs_in_Cyprus')">Based
+                on💡</a> <a href="#github" onClick="window.open('https://github.com/mrfeod/cysigns/')">Code⚙️</a> <a
+                href="#test" onClick="window.open('index.html')">Try passing a test!🎓</a>
+        </div>
+    </div>
+    <script src="src/signs.js"></script>
+    <script src="src/script_simple.js"></script>
+</body>
+
+</html>
